@@ -1,0 +1,26 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none; /* quito los puntos de li*/
+    padding-left: 0;
+    background-color: darkturquoise;
+}
+.main-nav_item{
+    display: inline-block; /* Poner en horizontal los items*/
+
+}
+.main-nav_item a {
+    color: floralwhite;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none; /*Quito el subrayado del texto*/
+}
+
+.main-nav_item a:hover{
+    color: hotpink;
+}
+.main-nav_item a:active{
+    color: red;
+}
+.main-nav_item a::after{
+    content: " | ";
+}

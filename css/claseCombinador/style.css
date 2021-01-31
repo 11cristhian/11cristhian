@@ -1,0 +1,13 @@
+/*h2 + p {
+    color: rgb(30, 201, 104);
+}
+*/
+/*
+h2 ~ p{
+    color: red;
+}
+*/
+
+div > p {
+    color: red;
+}
